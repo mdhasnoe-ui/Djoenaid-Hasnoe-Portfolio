@@ -118,6 +118,15 @@ fill="currentColor" viewBox="0 0 24 24" >
             background-color: cadetblue;
         }
        </style>
+
+        <script>
+    const menuIcon = document.getElementById('menu-icon');
+    const navbar = document.querySelector('.navbar');
+
+    menuIcon.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+    });
+</script>
         
     
 
