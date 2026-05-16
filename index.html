@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
+fill="currentColor" viewBox="0 0 24 24" >
+<!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
+<path d="M3 5H21V7H3z"/><path d="M3 11H21V13H3z"/><path d="M3 17H21V19H3z"/>
+</svg>
+    
+    <title>Djoenaid Hasnoe - Portfolio</title>
+</head>
+
+
+    <body>
+
+
+
+    <!-- Header Section Code -->
+    <header class="header">
+        <a href="#home" class="logo">Djoenaid Hasnoe</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+          <a href="#Home">Home</a> 
+          <a href="#Services">Services</a>
+          <a href="#Skills">Skills</a>
+          <a href="#Education">Education</a>
+          <a href="#Experience">Experience</a> 
+          <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    
+    <!-- Home Section Code -->
+<section id="Home">
+    <div class="profile-photo">
+        <img src="profielfoto.png.png">
+    </div>
+    <div class="Home-text">
+        <h1>Welkom op mijn portfolio</h1>
+        <p>Hallo, ik ben Djoenaid Hasnoe — een gedreven student Bedrijfskundige Informatica met een passie voor technologie en digitale oplossingen. Welkom op mijn portfolio!</p>
+    </div>
+</section>
+
+    <!-- Services Section Code -->
+     <section id="Services">
+        <div class="Services-text">
+            <h2>Services</h2>
+            <p> Als student Bedrijfskundige Informatica bied ik diensten aan op het gebied van webontwikkeling en databasebeheer. Ik help bij het bouwen van eenvoudige websites en digitale oplossingen, en sta altijd open voor uitdagende projecten waarbij ik mezelf verder kan ontwikkelen.</p>
+        </div>
+
+     </section>
+
+     <!-- Skills Section Code -->
+      <section id="Skills">
+        <div class="Skills-text">
+            <h2>Skills</h2>
+            <P>Als student Bedrijfskundige Informatica ontwikkel ik mijn technische vaardigheden stap voor stap. Ik heb basiskennis van HTML, CSS, JavaScript en MySQL. Daarnaast ben ik momenteel bezig met het leren van Git en GitHub. Verder ben ik vaardig in Microsoft Office. Naast mijn technische skills beschik ik ook over goede communicatieve vaardigheden, werk ik goed samen in teamverband en denk ik probleemoplossend.</P>
+        </div>
+      </section>
+
+      <!-- Education Section Code -->
+       <section id="Education">
+        <div class="Education-text">
+            <h2>Education</h2>
+            <p>Na het succesvol afronden van de Havo heb ik mijn schakeljaar voltooid op ADEK. Momenteel volg ik de HBO opleiding Bedrijfskundig Informatica aan de UNASAT, waar ik mij verder ontwikkel binnen softwareontwikkeling en digitale technologie.</p>
+        </div>
+       </section>
+
+       <!--Experience Section Code-->
+       <section id="Experience">
+        <div class="Experience-text">
+            <h2>Experience</h2>
+            <p>Tijdens mijn opleiding heb ik ervaring opgedaan met verschillende IT-projecten. Zo heb ik meegewerkt aan een IoT-project: een Solar Cashback System, waarbij zonne-energie wordt opgewekt en teruggeleverd aan de EBS. Het doel van dit project was om energie beschikbaar te hebben bij stroomuitval en energiekosten te besparen. Daarnaast heb ik in groepsverband een webapplicatie ontwikkeld en heb ik dit portfolio zelf gebouwd met HTML, CSS en JavaScript. Via deze projecten heb ik mijn technische vaardigheden, probleemoplossend vermogen en samenwerking verder ontwikkeld.</p>
+        </div>
+       </section>
+
+       
+       <!--Contact Section Code-->
+<section id="Contact">
+  <div class="Contact-text">
+    <h2>Contact</h2>
+    <p>Heeft u vragen of interesse in een samenwerking? Neem gerust contact met mij op. Ik sta open voor nieuwe uitdagingen, leerervaringen en professionele kansen binnen de IT-sector. Klik op het contactgegevens knopje voor meer informatie.</p>
+
+    <button onclick="toggleContact()" id="contact-btn">Contactgegevens</button>
+
+    <div id="contact-info" style="display:none;">
+      <p>📞 <strong>Telefoon:</strong> +597 7648833</p>
+      <p>✉️ <strong>E-mail:</strong> mdhasnoe@gmail.com</p>
+    </div>
+  </div>
+</section>
+
+<script>
+  function toggleContact() {
+    const info = document.getElementById('contact-info');
+    const btn = document.getElementById('contact-btn');
+    if (info.style.display === 'none') {
+      info.style.display = 'block';
+      btn.textContent = 'Verbergen';
+    } else {
+      info.style.display = 'none';
+      btn.textContent = 'Contactgegevens';
+    }
+  }
+</script>
+
+       
+
+
+
+       <style>
+        body {
+            background-color: cadetblue;
+        }
+       </style>
+        
+    
+
+</body>
+
+
+    
+
+
+</html>
