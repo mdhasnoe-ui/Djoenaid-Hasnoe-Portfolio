@@ -238,3 +238,28 @@ font-size: 2rem;
         height: 220px;
     }
 }
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--main-color);
+        display: none;
+        flex-direction: column;
+        padding: 2rem 5%;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .navbar a {
+        margin: 1rem 0;
+        font-size: 2rem;
+    }
+}
