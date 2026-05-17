@@ -271,3 +271,13 @@ font-size: 2rem;
 #menu-icon {
     display: none;
 }
+
+.header {
+    flex-wrap: wrap;
+}
+
+#menu-icon {
+    display: block !important;
+    width: 100%;
+    text-align: left;
+}
