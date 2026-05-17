@@ -75,11 +75,10 @@ section{
 }
 
 #menu-icon {
+    display: none;
     font-size: 3.6rem;
-    color: var(--bg-color);
+    color: white;
     cursor: pointer;
-    margin-top: 1.5cm;
-
 }
 
 .Home-text {
@@ -267,19 +266,4 @@ font-size: 2rem;
         width: 150px;
         height: 220px;
     }
-}
-#menu-icon {
-    display: none;
-}
-
-.header {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#menu-icon {
-    display: block !important;
-    width: auto;
-    text-align: right;
 }
