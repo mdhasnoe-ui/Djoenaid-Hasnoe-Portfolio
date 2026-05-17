@@ -273,11 +273,13 @@ font-size: 2rem;
 }
 
 .header {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #menu-icon {
     display: block !important;
-    width: 100%;
-    text-align: left;
+    width: auto;
+    text-align: right;
 }
