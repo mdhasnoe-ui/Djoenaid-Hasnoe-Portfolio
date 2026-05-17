@@ -271,3 +271,10 @@ font-size: 2rem;
 #Home {
     padding-top: 10rem;
 }
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
