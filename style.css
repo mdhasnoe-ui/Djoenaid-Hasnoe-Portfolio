@@ -213,12 +213,7 @@ font-size: 2rem;
     padding: 10rem 9% 2rem;
 }
 
-#menu-icon {
-    display: none;
-    font-size: 3.6rem;
-    color: white;
-    cursor: pointer;
-}
+
 
 @media (max-width: 768px) {
     #menu-icon {
@@ -267,13 +262,3 @@ font-size: 2rem;
     }
 }
 
-#Home {
-    padding-top: 10rem;
-}
-
-.profile-photo {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 2rem;
-}
